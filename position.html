@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Document</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+    .relative {
+      position: relative;
+      border: 3px solid red;
+      height: 200px;
+      width: 500px;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      border: 2px solid green;
+      height: 40px;
+      width: 150px;
+    }
+
+    .top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      border: 2px solid green;
+      height: 40px;
+      width: 150px;
+      
+    }
+
+    .center {
+      position: absolute;
+      top: 80px;
+      right: 180px;
+      
+      border: 2px solid green;
+      height: 40px;
+      width: 150px;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="relative">
+    <div class="top-left"></div>
+    <div class="top-right"></div>
+    <div class="center"></div>
+  </div>
+</body>
+</html>

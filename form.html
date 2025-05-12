@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <style>
+
+      body {
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(209, 228, 235);
+      }
+
+      .form-container {
+        background-color: white;
+        padding: 30px 40px 30px 40px;
+        
+        
+      }
+      .register {
+        font-size: 26px;
+       
+      }
+
+      .name {
+        display: flex;
+        
+      }
+
+      .first-name {
+        margin-right: 20px;
+      }
+
+      input {
+        background-color: rgb(245, 241, 242);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-style: none;
+        border-style: solid;
+        border-width: 1px;
+        width: 100%;
+      }
+
+      input::placeholder {
+        text-align: left;
+      }
+
+      .register-button {
+        margin-top: 20px;
+        padding: 15px 40px 15px 40px;
+        font-size: 18px;
+        background-color: rgb(74, 74, 255);
+        border-style: none;
+        color: white;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class=" form-container">
+      <h2>Register</h2>
+      <div class="name">
+        <div class="first-name">
+          <p>First Name</p>
+        <input type="text" placeholder="e.g. John">
+        </div>
+        <div class="last-name">
+          <p>Last Name</p>
+        <input type="text" placeholder="e.g. Doe">
+        </div>
+      </div>
+      <p>Email</p>
+      <input type="email" placeholder="e.g. johndoe@gmail.com">
+      <p>Password</p>
+      <input type="password" placeholder="e.g. TR4158p$">
+      <p>Confirm Password</p>
+      <input type="password" placeholder="e.g. TR4158p$">
+    </div>
+    <div class="button-container">
+      <button class="register-button">Register</button>
+    </div>
+     
+
+   
+  </body>
+</html>
